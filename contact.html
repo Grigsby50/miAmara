@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="contact-style.css">
+        <title>Contact Us</title>
+        <!--fontawesome cdn-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!--Bootstrap css-->
+        <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    </head>
+    <body>
+
+        <!--navbar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white py-4 fixed-top">
+         <div class="container">
+             <a class="navbar-brand d-flex justify-content-between align-items-center order-lg-0" href="ecommerce-index.html">
+             <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm7BoFe6NtDr8OlrBYsFkrs1Nogvhn_MH61w&usqp=CAU" alt="site icon">
+                 <span class="text-uppercase fw-lighter ms-2">miAmara</span>
+             </a>
+             
+             <div class="order-lg-2 nav-btns"> 
+                 <button type="button" class="btn position-relative">
+                     <i class=" fa-solid fa-flower-tulip"></i>
+                     <span class="position-absolute top-0 start-100 translate-middle badge bg-primary"></span>
+                 </button>
+             </div>
+             
+             <button class="navbar-toggler border-0" type="button" data-bs-toggle ="collapse" data-bs-target ="#navMenu">
+                 <span class="navbar-toggler-icon"></span>
+             </button>
+             <div class="collapse navbar-collapse order-lg-1" id="navMenu">
+                 <ul class="navbar-nav mx-auto text-center">
+                        <li class="nav-item px-2 py-2">
+                         <a class="nav-link text-uppercase text-dark" href="ecommerce-index.html">home<br><i class="fa-solid fa-house"></i></a>
+                         </li>
+                         <li class="nav-item px-2 py-2">
+                             <a class="nav-link text-uppercase text-dark" href="#collection">collection<br><i class="fa-solid fa-layer-group"></i></a>
+                         </li>
+ 
+                         <li class="nav-item px-2 py-2">
+                             <a class="nav-link text-uppercase text-dark" href="miamara-blog.html">blogs<br><i class="fa-brands fa-microblog"></i></a>
+                         </li>
+ 
+                         <li class="nav-item px-2 py-2">
+                             <a class="nav-link text-uppercase text-dark" href="checkout.html">checkout<br><i class="fa-solid fa-credit-card"></i></a>
+                         </li>
+ 
+                         <li class="nav-item px-2 py-2 border-0">
+                             <a class="nav-link text-uppercase text-dark" href="contact.html">contact us<br><i class="fa-solid fa-address-card"></i></a>
+                         </li>
+                   
+                 </ul>
+             </div>
+          </div>
+        </nav>
+
+        <!--end of navbar-->
+        <header id="header" class="vh-100" style ="padding-top:120px;">
+            <div>
+            <h1 class="intro">Contact Us</h1>
+           <h2 class="group">Socials</h2>
+     <div class="lister">
+        <ul class="list">
+          <li class=" litem snapchat text-uppercase"><i class="fa-brands fa-square-snapchat" style="color: rgba(54, 53, 53, 0.774);"></i>
+            <br>amara_king1</li>
+
+          <li class="litem"><a href=""><i class="fa-brands fa-square-instagram" style="color: rgba(54, 53, 53, 0.774);"></i></a>
+            <br>__miamara</li>
+
+          <li class="litem"><a href=""><i class="fa-brands fa-square-facebook" style="color: rgba(54, 53, 53, 0.774);"></i></a>
+            <br>Amara Iree King</li>
+
+          <li class="litem"><a href="tel:2602585876"><i class="fa-solid fa-phone" style="color: rgba(54, 53, 53, 0.774);"></i></a>
+            <br>(260)258-5876</li>
+         </ul>
+     </div>
+    </div>
+</header>
+        
+        <div class="container-2"> 
+           <p class="love"><label for="text-area">We'd Love to Hear From You!</label></p>
+            <textarea id="text-area" rows="10" cols="100" class="text-area" placeholder="Let us know how we are doing"></textarea>
+            <button class="pushable" onclick="myFunction()">
+                <span class="front">
+                  Submit
+                </span>
+              </button>
+        </div>
+
+        
+   <!--jquery-->
+   <script src ="js/jquery-3.6.1.js"></script>
+   <!--isotope js-->
+   <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+   <!--Bootstrap js-->
+   <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+  <!--custom js-->
+  <script src ="js/script.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@0;1&family=Oxygen&family=Roboto+Condensed:wght@300;400;700&display=swap');
+ :root{
+    --lg-font: 'Lobster Two', serif;
+    --sm-font: 'Oxygen', sans-serif;
+    --post-font: 'Roboto Condensed', sans-serif;
+    --pink: #e5345b;
+    --mint: #28a575;
+    
+ }
+ body{
+    background-image: url(https://wallpaperaccess.com/full/1228158.gif);
+    background-size:cover;
+    opacity: 1;
+    transition: all 2s;
+}
+ .welc{
+    font-size: 60px;
+    font-family: var(--lg-font);
+    color:darkolivegreen;
+    text-decoration: underline;
+
+ }
+ .sub{
+    font-family: var(--sm-font);
+    padding-left: 50%;
+    font-size: 15px;
+ }
+ 
+  
+  body.loaded {
+    opacity: 1;
+  }
+ .navbar{
+    box-shadow: 0 3px 9px 3px rgba(0,0,0,0.1);
+}
+.navbar-brand img{
+    width: 30px;
+}
+.navbar-brand span{
+    letter-spacing: 2px;
+    font-family: var(--lg-font);
+}
+.nav-link:hover{
+    color: var(--mint)!important;
+}
+.nav-item{
+    border-bottom: 0.5px solid rgba(0,0,0,0.05);
+}
+
+
+/*media queries*/
+@media(min-width: 992px){
+    .nav-item{
+        border-bottom: none;
+    }
+}

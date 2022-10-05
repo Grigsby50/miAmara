@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700&family=Poppins:wght@300;400;500&display=swap');
+
+:root{
+    --lg-font: 'Kaisei Tokumin', serif;
+    --sm-font: 'Poppins', sans-serif;
+    --pink:#e5345b;
+
+}
+
+body{
+    background-image: url(https://wallpapercave.com/wp/wp4021674.jpg);
+}
+
+/*Nav*/
+.navbar{
+ 
+    box-shadow: 0 3px 9px 3px rgba(0,0,0,0.1);
+}
+
+.navbar-brand img{
+    width: 30px;
+}
+
+.navbar-brand span{
+    letter-spacing: 2px;
+    font-family: var(--lg-font);
+}
+
+.nav-link:hover{
+    color: var(--pink)!important;
+}
+
+.nav-item{
+    border-bottom: 0.5px solid rgba(0,0,0,0.05);
+}
+/*End of Nav*/
+
+/*Contact*/
+
+.lister{
+    text-align: center;
+}
+
+.list{
+   list-style:none ;
+   display: inline-block;
+    text-align: center;
+}
+
+.litem{
+    padding: 10px;
+}
+
+.intro{
+font-size: 50px;
+font-family: var(--lg-font);
+color: var(--pink);
+text-align: center;
+}
+
+.group{
+text-align: center;
+  text-decoration: underline;
+  color: black;
+}
+
+.fa-square-snapchat {
+    font-size: 60px;
+}
+
+.snapchat{
+    font-family: var(--lg-font);
+}
+
+ .snapchat:hover{
+    font-size: 20px;
+}
+
+.fa-square-instagram{
+    font-size: 60px;
+}
+
+.fa-square-instagram:hover{
+    font-size: 70px;
+}
+
+.fa-square-facebook{
+    font-size: 60px;
+}
+
+.fa-square-facebook:hover{
+    font-size: 70px;
+}
+
+.fa-phone{
+    font-size: 60px;
+}
+
+.fa-phone:hover{
+    font-size: 70px;
+}
+
+.fa-envelope{
+    font-size: 60px;
+}
+
+.fa-envelope:hover{
+    font-size: 70px;
+}
+.hear{
+    text-align: center;
+}
+.container-2{
+    display: inline-block;
+    text-align: center;
+}
+.text-area{
+    border-radius: 32px;
+    max-width: 820px;
+    padding-left: 10px;
+}
+.love{
+    font-family: var(--sm-font);
+    font-size: 25px;
+    text-align: center;
+    left: 10px;
+}
+
+
+.pushable {
+    background: hsl(340deg 100% 32%);
+    border-radius: 12px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+  }
+  .front {
+    display: block;
+    padding: 12px 42px;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    background: rgb(241, 78, 214);
+    color: white;
+    transform: translateY(-6px);
+  }
+
+  .pushable:active .front {
+    transform: translateY(-2px);
+  }
+  .front {
+    will-change: transform;
+    transition: transform 250ms;
+  }
+
+  .pushable:hover .front {
+    transform: translateY(-6px);
+  }
+  
+  .pushable:active .front {
+    transform: translateY(-2px);
+  }
+/*media queries*/
+@media(min-width: 992px){
+    .nav-item{
+        border-bottom: none;
+    }
+}
+
